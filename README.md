@@ -54,13 +54,15 @@ Shopp App, MERN (MongoDB, Express.js, React.js, Node.js) stack kullanılarak gel
    npm install
    ```
 
-3. Backend'i başlatmak için aşağıdaki komutu çalıştırın:
+3. .env.example dosyasının içindekileri kopyalayıp backend dizinine .env dosyasını oluşturun ve içindeki istenen bilgileri girin. MongoDB urlinizin sonuna /shopapp yazmayı unutmayın
+
+4. Backend'i başlatmak için aşağıdaki komutu çalıştırın:
 
    ```bash
    npm start
    ```
 
-4. Sunucu `http://localhost:3000` adresinde çalışmaya başlayacaktır.
+5. Sunucu `http://localhost:3000` adresinde çalışmaya başlayacaktır.
 
 ## Katkıda Bulunma
 
