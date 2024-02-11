@@ -62,12 +62,12 @@ export default function CreateProduct() {
 
             <div className="flex flex-col">
               <label htmlFor="imgUrl" className="text-lg">
-                Resim
+                Resim Url
               </label>
               <Field
                 name="imgUrl"
                 type="text"
-                placeholder="Resim"
+                placeholder="Resim Url"
                 className={
                   "mt-2 mb-1 outline-none focus:ring-blue-800 focus:ring-2 text-black ring-black px-3.5 py-2.5 rounded-lg ring-inset ring-1 "
                 }

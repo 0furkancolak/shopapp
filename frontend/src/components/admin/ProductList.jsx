@@ -40,7 +40,7 @@ export default function ProductList() {
       {products?.map((pr) => (
         <div key={pr._id} className=" flex gap-2 border mx-4">
           <div className="flex basis-1/6">
-            <img src={pr.imgUrl} alt="" className="object-contain" />
+            <img src={pr.imgUrl} alt="" className="object-contain py-2 ps-1" />
           </div>
           <div className="flex basis-3/6 flex-col py-1 justify-between">
             <h1 className="font-bold text-xl">{pr.name}</h1>

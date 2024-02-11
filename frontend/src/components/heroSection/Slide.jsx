@@ -26,8 +26,8 @@ export default function Slide({ data }) {
           </button>
         </div>
       </div>
-      <div className="flex flex-1 items-center">
-        <img src={data.imgUrl} alt="" className="object-contain rounded-md" />
+      <div className="flex flex-1 items-center justify-center ">
+        <img src={data.imgUrl} alt="" className="object-contain max-h-96 rounded-md" />
       </div>
     </div>
   );

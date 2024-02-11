@@ -25,11 +25,11 @@ export default function HeroSection() {
           dynamicBullets: true,
         }}
         modules={[Pagination]}
-        className="mySwiper w-full lg:max-w-[75%] h-full max-h-[50%] my-8 py-6 bg-gray-200 rounded-lg"
+        className="mySwiper w-full lg:max-w-[60%] h-full max-h-[50%] my-8 py-6 px-10 rounded-lg"
       >
         {data.map((d) => (
           <SwiperSlide key={d.id} className="rounded-lg">
-            <Slide data={d}/>
+            <Slide data={d} />
           </SwiperSlide>
         ))}
       </Swiper>

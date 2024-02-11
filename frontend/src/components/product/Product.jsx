@@ -9,8 +9,8 @@ export default function Product({ data }) {
   };
   return (
     <div className="rounded-lg border">
-      <div>
-        <img src={data.imgUrl} alt="" className="rounded-t-lg" />
+      <div className="flex items-center justify-center">
+        <img src={data.imgUrl} alt="" className="rounded-t-lg object-contain max-h-48 py-2" />
       </div>
       <div className="p-1">
         <h3 className="text-xl my-1 font-bold">{data.name}</h3>

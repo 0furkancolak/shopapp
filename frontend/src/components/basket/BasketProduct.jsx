@@ -13,8 +13,8 @@ export default function BasketProduct({ data }) {
   };
   return (
     <div className="flex gap-4 border rounded-l-lg">
-      <div className="flex basis-2/6">
-        <img src={data.productId.imgUrl} alt="" className="rounded-l-lg" />
+      <div className="flex basis-2/6 items-center justify-center py-2">
+        <img src={data.productId.imgUrl} alt="" className="rounded-l-lg object-contain max-h-48" />
       </div>
       <div className="flex gap-2 basis-3/6 py-2">
         <div>

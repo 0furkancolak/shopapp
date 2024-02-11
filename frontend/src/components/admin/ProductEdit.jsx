@@ -66,21 +66,30 @@ export default function ProductEdit() {
             />
           </div>
 
-          <div className="flex flex-col">
-            <label htmlFor="imgUrl" className="text-lg">
-              Resim
-            </label>
-            <input
-              name="imgUrl"
-              type="text"
-              placeholder="Resim"
-              value={data?.imgUrl}
-              required
-              onChange={(e) => setData({ ...data, imgUrl: e.target.value })}
-              className={
-                "mt-2 mb-1 outline-none focus:ring-blue-800 focus:ring-2 text-black ring-black px-3.5 py-2.5 rounded-lg ring-inset ring-1 "
-              }
-            />
+          <div className="flex gap-4">
+            <div className="flex flex-col flex-1">
+              <label htmlFor="imgUrl" className="text-lg">
+                Resim Url
+              </label>
+              <input
+                name="imgUrl"
+                type="text"
+                placeholder="Resim url"
+                value={data?.imgUrl}
+                required
+                onChange={(e) => setData({ ...data, imgUrl: e.target.value })}
+                className={
+                  "mt-2 mb-1 outline-none focus:ring-blue-800 focus:ring-2 text-black ring-black px-3.5 py-2.5 rounded-lg ring-inset ring-1 "
+                }
+              />
+            </div>
+            <div className="">
+              <img
+                src={data?.imgUrl}
+                alt=""
+                className="object-contain max-h-32"
+              />
+            </div>
           </div>
 
           <div className="flex flex-col">
