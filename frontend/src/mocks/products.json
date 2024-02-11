@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "İphone",
+      "price": 4000,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quis!",
+      "url": "/",
+      "imgUrl": "1.png"
+    },
+    {
+      "id": 2,
+      "name": "Samsung",
+      "price": 4000,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quis!",
+      "url": "/",
+      "imgUrl": "3.png"
+    },
+    {
+      "id": 3,
+      "name": "Airfry",
+      "price": 4000,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quis!",
+      "url": "/",
+      "imgUrl": "3.png"
+    },
+    {
+      "id": 4,
+      "name": "Araba",
+      "price": 4000,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quis!",
+      "url": "/",
+      "imgUrl": "3.png"
+    }
+  ]
+}
