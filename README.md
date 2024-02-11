@@ -45,7 +45,7 @@ Shopp App, MERN (MongoDB, Express.js, React.js, Node.js) stack kullanılarak gel
 1. `server` dizinine gidin:
 
    ```bash
-   cd server
+   cd backend
    ```
 
 2. Gerekli paketleri yüklemek için npm kullanarak aşağıdaki komutu çalıştırın:
